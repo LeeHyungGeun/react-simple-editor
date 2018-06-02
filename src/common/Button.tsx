@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 import theme from '../styles/theme';
 
-const Button = styled.div`
+interface IButton {
+  onClick: () => void;
+}
+
+const Button = styled<IButton, any>('div')`
   font-size: 16px;
   padding: 0.5em;
   background: ${theme.color.white};
