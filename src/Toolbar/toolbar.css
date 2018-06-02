@@ -1,0 +1,10 @@
+.toolbar-container {
+  display: table;
+  border-collapse: collapse;
+}
+.toolbar-row {
+  /* display: table-row; */
+}
+.toolbar-row > * {
+  display: table-cell;
+}
