@@ -7,7 +7,9 @@ class App extends React.Component {
   public render() {
     return (
       <div className="app">
-        <Toolbar />
+        <div className="editor">
+          <Toolbar />
+        </div>
       </div>
     );
   }
