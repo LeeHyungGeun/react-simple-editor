@@ -18,10 +18,10 @@ class ToolbarContainer extends React.Component<IProps, IState> {
     return (
       <div className="toolbar-container">
         <div className="toolbar-row">
-          <Button onClick={this.onClick} effect="bold">Bold</Button>
-          <Button onClick={this.onClick} effect="italic">Italic</Button>
-          <Button onClick={this.onClick} effect="underline">Underline</Button>
-          <Button onClick={this.onClick} effect="strike">Strike</Button>
+          <Button onClick={this.onClick} effect="bold">B</Button>
+          <Button onClick={this.onClick} effect="italic">I</Button>
+          <Button onClick={this.onClick} effect="underline">U</Button>
+          <Button onClick={this.onClick} effect="strike">S</Button>
         </div>
       </div>
     )

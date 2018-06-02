@@ -13,7 +13,7 @@ class ButtonContainer extends React.Component<IButtonContainerProps> {
   public render() {
     return (
       <Button onClick={this.props.onClick.bind(this, this.props.effect)}>
-        {this.props.effect}
+        {this.props.children}
       </Button>
     )
   }
