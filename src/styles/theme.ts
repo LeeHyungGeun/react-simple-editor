@@ -1,6 +1,7 @@
 export default {
   color: {
     white: '#ffffff',
+    whiteGrey: '#e9ecef',
     grey: '#adb5bd',
     red: '#ff6b6b',
     pink: '#f06595',
