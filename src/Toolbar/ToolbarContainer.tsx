@@ -2,12 +2,12 @@ import * as React from 'react';
 import Button from './ButtonContainer';
 import './toolbar.css';
 
-interface IProps {
+interface IToolbarProps {
 };
-interface IState {
+interface IToolbarState {
 };
-class ToolbarContainer extends React.Component<IProps, IState> {
-  constructor(props: IProps) {
+class ToolbarContainer extends React.Component<IToolbarProps, IToolbarState> {
+  constructor(props: IToolbarProps) {
     super(props);
     this.onClick = this.onClick.bind(this);
   }
