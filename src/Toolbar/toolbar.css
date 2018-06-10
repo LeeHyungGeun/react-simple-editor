@@ -1,6 +1,7 @@
 .toolbar-container {
   display: table;
   border-collapse: collapse;
+  text-align: left;
 }
 .toolbar-row {
   /* display: table-row; */
