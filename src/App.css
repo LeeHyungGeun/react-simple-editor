@@ -4,11 +4,24 @@ body {
 .app {
   margin: 0 auto;
 }
-.editor {
+.simple-editor-container {
   position: relative;
   width: 550px;
   top: 3rem;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+.simple-editor-toolbar {
+  width: 100%;
+}
+.simple-editor-content {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
 }
